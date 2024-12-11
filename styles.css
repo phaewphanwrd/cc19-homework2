@@ -1,0 +1,143 @@
+:root{
+    --main--color : rgb(255, 255, 255);
+    --second--color : #E50914;
+    --thrid--color : rgb(188, 188, 188);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.497)) ,url('https://assets.nflxext.com/ffe/siteui/vlv3/ce449112-3294-449a-b8d3-c4e1fdd7cff5/web/TH-en-20241202-TRIFECTA-perspective_559d4f51-13d8-472b-9240-facf15b47421_medium.jpg');
+    font-family: "Ubuntu", sans-serif;
+    margin: 0 50px;
+
+}
+
+header{
+    width: 100%;    
+}
+
+.nav-bar{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 70%;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.nav-right{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    border: 1px solid var(--main--color);
+    border-radius: 5px;
+    background-color: black;
+}
+
+.logo-tran{
+    width: 15px;
+}
+
+select{
+    background-color: transparent;
+    color: var(--main--color);
+    border: none;
+}
+
+
+
+.sign-in{
+    width: 70px;
+    font-size: 14px;
+    padding: px 10px;
+    background-color: var(--second--color);
+    border-radius: 5px;
+    border: none;
+    color: var(--main--color);
+}
+
+/* Started Main Section */
+main{
+    height: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title >*{
+    padding-bottom: 15px;
+    color: white;
+}
+
+.input-section{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;    
+}
+
+input{
+    background-color: black;
+    width: 68%;
+    height: 100%;
+    opacity: 70%;
+    border:1px solid var(--thrid--color);
+    padding-left: 10px;
+    color: var(--main--color);
+    border-radius: 5px;
+   
+}
+
+.input-section .parent-get{
+    width: 32%;
+    background-color: var(--second--color);
+    border-radius: 5px;
+    color: var(--main--color);
+}
+
+.parent-get .get{
+    height: 100%;
+    background-color: var(--second--color);
+    border-radius: 5px;
+    border: none;
+    color: var(--main--color);
+    padding: 0px 8px;
+    font-size: 16px;
+    display: inline;
+    align-items: center;
+    font-weight: 500;
+
+
+}
+
+.input-section svg{
+    width: 14px;
+}
+
+/* End Main Section */
